@@ -11,8 +11,9 @@
 7.Modeling 🚀  
 8.Model Performance  
 9.model choice  
-10.Recommendations
-11.Conclusion
+10.Recommendations  
+11.Conclusion  
+12.Limitations
 
 ## 1️⃣ Business Overview
 
@@ -144,3 +145,9 @@ Handling class imbalance impacts model performance
 Decision Tree provides the best balance of performance
 
 👉 Using this model, the company can move from reactive decisions to proactive customer retention strategies, improving both revenue and customer satisfaction.
+
+## 1️⃣2️⃣ Limitations
+
+- The dataset is limited to one telecom company
+- The model may not generalize to other industries
+- Class imbalance affected model performance
