@@ -1,10 +1,6 @@
 ## Customer Churn Prediction Using Machine Learning
 
----
-
 ## Table Contents
-
----
 
 1.Business Overview  
 2.Business Understanding  
@@ -18,8 +14,6 @@
 10.Recommendations
 11.Conclusion
 
----
-
 ## 1️⃣ Business Overview
 
 The telecommunications industry is highly competitive, and companies often struggle to retain customers. One major challenge faced by telecom providers is customer churn, which occurs when customers stop using the company’s services and move to a competitor.
@@ -28,7 +22,7 @@ Customer churn can significantly impact a company's revenue because acquiring ne
 
 In this project, I analyze customer data from a telecommunications company (Syriatel) to build a machine learning model that predicts whether a customer is likely to churn. The dataset contains information such as customer account length, call usage, international plans, voice mail plans, and customer service calls.
 
-## By identifying patterns that lead to customer churn, the company can take preventive actions such as offering promotions, improving customer service, or providing personalized retention strategies.
+By identifying patterns that lead to customer churn, the company can take preventive actions such as offering promotions, improving customer service, or providing personalized retention strategies.
 
 ## 2️⃣ Business Understanding
 
@@ -42,8 +36,6 @@ The main stakeholders for this project include:
 Company management, who use insights to improve business strategies and reduce churn.  
 Customer retention teams, who can target customers likely to leave with special offers or improved services.  
 Customer service teams, who can improve support if frequent service calls are linked to churn.
-
----
 
 ## 4️⃣ Success Criteria
 
@@ -85,8 +77,6 @@ Categorical variables were encoded
 Numerical features were scaled
 Class imbalance was handled using SMOTE (for selected models)
 
----
-
 ## 8️⃣ Model Performance
 
 The models were evaluated using classification metrics:
@@ -111,8 +101,6 @@ Decision Tree (With SMOTE):
 Higher recall
 Lower accuracy (~80%)
 More false positives
-
----
 
 ## 9️⃣ Model Choice
 
@@ -144,8 +132,6 @@ Analyze Key Features
 → Focus on factors like service calls and usage patterns
 Explore Advanced Models
 → Consider Random Forest or Gradient Boosting for improvement
-
----
 
 ## 1️⃣1️⃣ Conclusion
 
