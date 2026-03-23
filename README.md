@@ -28,7 +28,7 @@ By identifying patterns that lead to customer churn, the company can take preven
 
 The objective of this project is to predict whether a telecom customer will churn using customer usage and account information. The dataset includes features such as account length, call usage (day, evening, and night minutes), international plan, voicemail plan, and customer service calls.
 
-## The target variable is churn, where TRUE indicates the customer left the company and FALSE indicates the customer stayed. By predicting churn early, the company can take actions such as improving customer service or offering incentives to retain customers.
+The target variable is churn, where TRUE indicates the customer left the company and FALSE indicates the customer stayed. By predicting churn early, the company can take actions such as improving customer service or offering incentives to retain customers.
 
 ## 3️⃣ Stakeholders
 
@@ -41,11 +41,11 @@ Customer service teams, who can improve support if frequent service calls are li
 
 The success of this project will be determined by how well the machine learning model can correctly predict customer churn. I will evaluate the model using classification metrics such as accuracy, precision, recall, and F1-score.
 
-## A successful model should correctly identify customers who are likely to churn while minimizing incorrect predictions. This will help demonstrate that the model can be useful for identifying at-risk customers and supporting customer retention strategies
+A successful model should correctly identify customers who are likely to churn while minimizing incorrect predictions. This will help demonstrate that the model can be useful for identifying at-risk customers and supporting customer retention strategies
 
 ## 5️⃣ Data Understanding
 
-## The dataset used in this project contains customer information from a telecommunications company. It includes data related to customer accounts, service usage, and interactions with customer support. The goal of the dataset is to help identify patterns that may lead to customer churn.
+The dataset used in this project contains customer information from a telecommunications company. It includes data related to customer accounts, service usage, and interactions with customer support. The goal of the dataset is to help identify patterns that may lead to customer churn.
 
 During the initial inspection of the dataset, I checked for issues such as missing values, duplicates, and data types. Understanding the structure and quality of the data helps prepare it for further analysis, including exploratory data analysis and machine learning modeling.
 
@@ -60,7 +60,7 @@ Customers with frequent customer service calls are more likely to churn, suggest
 Customers with an international plan show a higher churn rate.
 Customers with higher usage (especially day minutes) tend to churn more.
 
-## These insights highlight important behavioral patterns that influence customer churn and help guide the modeling process.
+These insights highlight important behavioral patterns that influence customer churn and help guide the modeling process.
 
 ## 7️⃣ Modeling 🚀
 
@@ -114,7 +114,7 @@ Achieves high overall performance
 Maintains strong ROC-AUC score
 Produces fewer false positives compared to SMOTE models
 
-## This model is suitable for business use because it can effectively identify customers at risk of churn while maintaining reliable predictions.
+This model is suitable for business use because it can effectively identify customers at risk of churn while maintaining reliable predictions.
 
 ## 🔟 Recommendations
 
